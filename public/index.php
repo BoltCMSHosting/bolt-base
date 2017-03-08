@@ -9,4 +9,10 @@ if ($app === false) {
     return false;
 }
 
+// Include the aws file is it has been enabled for this website
+$aws = __DIR__ . '/../aws.php';
+if (file_exists($aws)) {
+    include __DIR__ . '/../aws.php';
+}
+
 $app->run();

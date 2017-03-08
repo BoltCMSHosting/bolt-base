@@ -32,3 +32,4 @@ bolt.db
 !source/js/*.js
 public/bolt-public/view/*
 public/theme/base-2016/
+/aws.php
