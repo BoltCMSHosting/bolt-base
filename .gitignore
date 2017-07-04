@@ -26,8 +26,13 @@ Vagrantfile
 /bolt.log
 
 # BoltCMS.Hosting specific
-/.ftpconfig*
 bolt.db
-public/bolt-public/view/*
-public/theme/base-2016/
+*.css
+.htaccess
+!source/**/*.js
+/public/bolt-public/*
+/public/theme/base-2016/
+/public/files/
 /aws.php
+
+# Project Specific
